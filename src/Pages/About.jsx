@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import mine from "./mine.jpeg";
+import mine from "./mine1.jpeg";
 
 // Memoized Components
 const Header = memo(() => (

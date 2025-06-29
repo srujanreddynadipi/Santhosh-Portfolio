@@ -13,7 +13,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/srujan-reddy-b28413259/",
+    // url: "https://www.linkedin.com/in/srujan-reddy-b28413259/",
     color: "#0A66C2",
     gradient: "from-[#0A66C2] to-[#0077B5]",
     isPrimary: true
@@ -21,9 +21,9 @@ const socialLinks = [
   {
     name: "Instagram",
     displayName: "Instagram",
-    subText: "@srujan_reddy_2508",
+    subText: "@san.t.hoshh",
     icon: Instagram,
-    url: "https://www.instagram.com/srujan_reddy_2508/",
+    url: "https://www.instagram.com/san.t.hoshh?igsh=MWhvMzc3NXE0ajdwNw%3D%3D&utm_source=qr",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]"
   },
@@ -39,9 +39,9 @@ const socialLinks = [
   {
     name: "GitHub",
     displayName: "Github",
-    subText: "@srujanreddynadipi",
+    subText: "@santhoshh79",
     icon: Github,
-     url: "https://github.com/srujanreddynadipi",
+     url: "https://github.com/santhoshh79",
     color: "#ffffff",
     gradient: "from-[#333] to-[#24292e]"
   },
