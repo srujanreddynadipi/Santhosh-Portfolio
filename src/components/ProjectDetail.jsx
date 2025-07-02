@@ -83,7 +83,7 @@ const handleGithubClick = (githubLink) => {
     Swal.fire({
       icon: 'info',
       title: 'Source Code Private',
-      text: 'Request source code through email srujanreddynadipi@gmail.com.',
+      text: 'Request source code through email santhoshbadari@gmail.com.',
       confirmButtonText: 'Done',
       confirmButtonColor: '#3085d6',
       background: '#030014',

@@ -30,7 +30,7 @@ const socialLinks = [
   {
     name: "YouTube",
     displayName: "Youtube",
-    subText: "@srujan reddy",
+    // subText: "@srujan reddy",
     icon: Youtube,
     // url: "https://www.youtube.com/@",
     color: "#FF0000",
@@ -48,7 +48,7 @@ const socialLinks = [
   {
     name: "TikTok",
     displayName: "Tiktok",
-    subText: "@srujan reddy",
+    subText: "@",
     icon: ({ className, ...props }) => (
      <svg width="24px" height="24px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Tiktok</title>

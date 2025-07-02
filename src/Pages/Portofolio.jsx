@@ -50,7 +50,7 @@ const localProjects = [
     Img: "/projects/smartcookie.png",
     Title: "Smart Cookie",
     Description: "The main motive of Smart Cookie is to provide a real-time Student–Teacher reward program called Protsahan Bharti It enables educators and learners to award each other 'Just‑in‑Time' points for academic, co‑curricular, and extracurricular achievements—fostering motivation, engagement, and positive reinforcement within educational environments In essence, its a zero‑cost online rewards engine allowing students, teachers, sponsors, and school administrators to build a culture of recognition and encouragement in colleges and schools ",
-    Link: "https://internsbpsi@bitbucket.org/BPSI-Master/smartcookie-react.git",
+    // Link: "https://internsbpsi@bitbucket.org/BPSI-Master/smartcookie-react.git",
     TechStack: ["React", "JavaScript", "Tailwind"],
     Github: "Private", // Added Github link for Smart Cookie
     Features: [ // Example features for Smart Cookie
@@ -65,9 +65,9 @@ const localProjects = [
     Img: "/projects/cjn.png",
     Title: "Continous Job Network",
     Description: "Aims to be a 24/7 dedicated TV-style platform that bridges the gap between job seekers and employers, offering a comprehensive ecosystem for career development",
-    Link: "https://internsbpsi@bitbucket.org/BPSI-Master/cjn-react.git",
+    // Link: "https://internsbpsi@bitbucket.org/BPSI-Master/cjn-react.git",
     TechStack: ["Node.js", "React", "MongoDB"],
-    Github: "https://github.com/srujanreddynadipi/CJN.git", // Example Github link
+    // Github: "https://github.com/srujanreddynadipi/CJN.git", // Example Github link
     Features: [ // Example features for CJN
       "24/7 dedicated TV-style platform",
       "Connects job seekers and employers",
@@ -80,9 +80,9 @@ const localProjects = [
     Img: "/projects/internship.png",
     Title: "Internship Portal",
     Description: "Platform that bridges the gap between job seekers and employers, offering a comprehensive ecosystem for career development",
-    Link: "https://github.com/srujanreddynadipi/Internship-portal.git",
+    // Link: "https://github.com/srujanreddynadipi/Internship-portal.git",
     TechStack: ["HTML", "CSS", "MongoDB" , "Javascript"],
-    Github: "https://github.com/srujanreddynadipi/Internship-portal.git", // Example Github link
+    // Github: "https://github.com/srujanreddynadipi/Internship-portal.git", // Example Github link
     Features: [ // Example features for Internship Portal
       "Seamless application process",
       "Employer dashboard",
@@ -95,9 +95,9 @@ const localProjects = [
     Img: "/projects/spotify.png",
     Title: "Spotify Clone",
     Description: "Digital music streaming service that gives users instant access to millions of songs, podcasts, and audiobooks from artists all over the world. With Spotify, you can discover new music, create and share playlists, follow your favorite artists, and enjoy personalized recommendations based on your listening habits.",
-    Link: "https://github.com/srujanreddynadipi/spotifyClone.git",
+    // Link: "https://github.com/srujanreddynadipi/spotifyClone.git",
     TechStack: ["React", "CSS" , "Javascript"],
-    Github: "https://github.com/srujanreddynadipi/spotifyClone.git", // Example Github link
+    // Github: "https://github.com/srujanreddynadipi/spotifyClone.git", // Example Github link
     Features: [ // Example features for Spotify Clone
       "Play, pause, skip songs",
       "Create playlists",
@@ -336,11 +336,11 @@ export default function FullWidthTabs() {
               label="Projects"
               {...a11yProps(0)}
             />
-            <Tab
+            {/* <Tab
               icon={<Award className="mb-2 w-5 h-5 transition-all duration-300" />}
               label="Certificates"
               {...a11yProps(1)}
-            />
+            /> */}
             <Tab
               icon={<Boxes className="mb-2 w-5 h-5 transition-all duration-300" />}
               label="Tech Stack"

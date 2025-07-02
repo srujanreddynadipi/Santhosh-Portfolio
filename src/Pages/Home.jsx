@@ -97,9 +97,9 @@ const PAUSE_DURATION = 2000;
 const WORDS = ["CS Engineering Student", "MERN Stack Developer"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/srujanreddynadipi" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/srujan-reddy-b28413259/" },
-  { icon: Instagram, link: "https://www.instagram.com/srujan_reddy_2508/" },
+  { icon: Github, link: "https://github.com/santhoshh79" },
+  // { icon: Linkedin, link: "https://www.linkedin.com/in/srujan-reddy-b28413259/" },
+  // { icon: Instagram, link: "https://www.instagram.com/san.t.hoshh?igsh=MWhvMzc3NXE0ajdwNw%3D%3D&utm_source=qr" },
 ];
 
 const Home = () => {

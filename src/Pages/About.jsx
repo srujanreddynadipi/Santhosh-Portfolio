@@ -7,12 +7,11 @@ import {
   ArrowUpRight,
   Sparkles,
   UserCheck,
-  DownloadCloud,
+  DownloadCloud, 
 } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import mine from "./mine1.jpeg";
-
+import mine from '../assets/mine1.jpg'
 // Memoized Components
 const Header = memo(() => (
   <div className="text-center lg:mb-8 mb-1 px-[5%]">
@@ -130,7 +129,7 @@ const DownloadButton = memo(() => (
     onClick={() => {
       const link = document.createElement("a");
       link.href = "/resume final.pdf"; // Updated to match your file name
-      link.download = "resume final.pdf";
+      // link.download = "resume final.pdf";
       link.click();
     }}
     className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#6366f1] to-[#a855f7] rounded-full text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30"
@@ -245,7 +244,7 @@ const AboutPage = () => {
                 data-aos="fade-right"
                 data-aos-duration="1300"
               >
-                Srujan Reddy
+                Santhosh Badari
               </span>
             </h2>
 
